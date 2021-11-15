@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/drawable/bg_edittext.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/drawable/bg_edittextt.xml" value="0.22" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/activity_add_diver_data_.xml" value="0.1" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/activity_car_list.xml" value="0.25" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/activity_cars.xml" value="0.2" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/activity_complete_booking_.xml" value="0.209375" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/activity_create_booking.xml" value="0.209375" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/activity_current_booking_details_tab_.xml" value="0.209375" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/activity_login_.xml" value="0.209375" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/activity_splash_.xml" value="0.209375" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/alert_layout.xml" value="0.209375" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/carlist_item.xml" value="0.209375" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/driverlist_item.xml" value="0.209375" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/fragment_current_booking.xml" value="0.209375" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/fragment_drivers_.xml" value="0.209375" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/fragment_home_.xml" value="0.209375" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/fragment_my_profile.xml" value="0.209375" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/fragment_my_route_.xml" value="0.209375" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/row_driver.xml" value="0.209375" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/layout/row_home_item.xml" value="0.209375" />
+        <entry key="..\:/Users/JARVIS/AndroidStudioProjects/tajtripcars-android-20201214/app/src/main/res/menu/drawer_menu.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

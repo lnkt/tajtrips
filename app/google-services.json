@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "739198357440",
+    "project_id": "tajtripcars-bdcff",
+    "storage_bucket": "tajtripcars-bdcff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739198357440:android:a730f38f14edebcd5c8225",
+        "android_client_info": {
+          "package_name": "com.tajway.tajwaycabs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739198357440-lid35amjh7u7igo1120fou150n7l059r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tajway.tajwaycabs",
+            "certificate_hash": "e1716b709f305bc61f0bb2e13766c129b8c8bdac"
+          }
+        },
+        {
+          "client_id": "739198357440-bu8d0s6m0o7eegoeg0udkhrpvbttfcsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUqugJDvWXs1eE0b8wYSgXLGIoX2YteLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739198357440-bu8d0s6m0o7eegoeg0udkhrpvbttfcsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

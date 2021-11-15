@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="vertical"
+    tools:context=".Activities.Contact_Us_Activity">
+
+   <!--<WebView
+       android:id="@+id/webview_contact"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
+-->
+
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Contact Us :"
+       android:textSize="25sp"
+       android:textStyle="bold"
+       android:textColor="@color/black"
+       android:layout_marginTop="10dp"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Tajwaycabs :"
+       android:textColor="@color/black"
+       android:textSize="18sp"
+       android:layout_marginTop="20dp"/>
+   <TextView
+       android:visibility="gone"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="L-1, Ashok Vihar Phase-2, Sector 3, Gurgaon"
+       android:textColor="@color/black"
+       android:layout_marginTop="5dp"/>
+
+   <TextView
+       android:visibility="gone"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Haryana 122017"
+       android:textColor="@color/black"
+       android:layout_marginTop="5dp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:orientation="horizontal"
+    android:layout_marginTop="5dp">
+
+   <TextView
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:text="Phone :"
+       android:textSize="18sp"
+       android:textColor="@color/black"/>
+   <TextView
+       android:id="@+id/tvCallNumber"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="3"
+       android:text="9599357254"
+       android:textSize="18sp"
+       android:textStyle="italic"
+       android:textColor="@color/titlebackgroundcolor" />
+</LinearLayout>
+
+
+
+   <TextView
+       android:visibility="gone"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Email us: contact@tajwaycabs.com"
+       android:textColor="@color/titlebackgroundcolor"
+       android:layout_marginTop="5dp"/>
+
+
+</LinearLayout>

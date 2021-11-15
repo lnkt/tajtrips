@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative_cart"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="10dp"
+    android:gravity="center">
+
+    <!-- Menu Item Image -->
+
+    <RelativeLayout
+        android:id="@+id/relCart"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:foregroundGravity="center"
+            android:src="@drawable/ic_cart"
+            app:tint="@color/white" />
+
+        <!-- Badge Count -->
+        <TextView
+            android:id="@+id/txtCartQuantity"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/circle_add"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relNotification"
+        android:layout_toRightOf="@id/relCart"
+        android:layout_width="wrap_content"
+        android:visibility="visible"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/notification"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_notification"/>
+        <!-- Badge Count -->
+        <TextView
+            android:id="@+id/txtNotifyQuantity"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/circle_add"
+            android:gravity="center"
+            android:layout_marginLeft="2dp"
+            android:text=""
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/search"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/relCart"
+        android:src="@drawable/ic_search"/>
+
+</RelativeLayout>

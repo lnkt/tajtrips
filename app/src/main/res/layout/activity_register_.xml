@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Register_Activity">
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp">
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:text="TajTripCar Logo"
+                    android:textColor="@color/orange_dark_color"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold">
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Pewrsonal Deatils"
+                    android:textColor="@color/black_color"
+                    android:textSize="17sp"
+                    android:textStyle="bold"></TextView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5sp"
+                            android:text="Enter Name"></TextView>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="40sp"
+                            android:hint="Arjun"
+
+                            android:inputType="text"
+                            android:textColor="@color/black_color"></EditText>
+
+                    </LinearLayout>
+
+                   <!-- <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5sp"
+                            android:text="Enter Last Name"></TextView>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="40sp"
+                            android:hint="Saini"
+
+                            android:inputType="text"
+                            android:textColor="@color/black_color"></EditText>
+
+                    </LinearLayout>-->
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5sp"
+                        android:text="@string/EMAIL"></TextView>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40sp"
+                        android:hint=""
+                        android:inputType="phone"
+                        android:textColor="@color/black_color"></EditText>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5sp"
+                        android:text="@string/Enter_Mobile_No"></TextView>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40sp"
+                        android:hint=""
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/black_color"></EditText>
+
+
+                </LinearLayout>
+
+
+               <!-- <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:text="Address Details"
+                    android:textColor="@color/black_color"
+                    android:textSize="17sp"
+                    android:textStyle="bold"></TextView>-->
+
+               <!-- <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5sp"
+                            android:text="House no"></TextView>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="40sp"
+                            android:hint="H.no. 197"
+                            android:inputType="text"
+                            android:textColor="@color/black_color"></EditText>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5sp"
+                            android:text="Apartment name"></TextView>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="40sp"
+                            android:hint="Building no. 789"
+
+                            android:inputType="text"
+                            android:textColor="@color/black_color"></EditText>
+
+                    </LinearLayout>
+
+                </LinearLayout>-->
+
+
+               <!-- <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5sp"
+                        android:text="Street deatils to locate you"></TextView>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40sp"
+                        android:hint="152"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/black_color"></EditText>
+
+
+                </LinearLayout>-->
+
+
+               <!-- <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5sp"
+                        android:text="Landmark for easy reach out"></TextView>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40sp"
+                        android:hint="1582"
+
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/black_color"></EditText>
+
+
+                </LinearLayout>-->
+
+
+               <!-- <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5sp"
+                        android:text="Area deatils"></TextView>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40sp"
+                        android:hint="G Block,Sector 63"
+
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/black_color"></EditText>
+
+
+                </LinearLayout>-->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/checkBox1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/accept_term_of_services"
+                            android:layout_above="@+id/button"
+                            android:layout_centerHorizontal="true"/>
+
+
+
+
+                    </LinearLayout>
+
+                    <!--<LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5sp"
+                            android:text="Pincode"></TextView>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="40sp"
+                            android:hint="201301"
+
+                            android:inputType="text"
+                            android:textColor="@color/black_color"></EditText>
+
+                    </LinearLayout>-->
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5sp"
+                            android:text="@string/already_a_member"
+                            android:gravity="center_horizontal"></TextView>
+
+                        <TextView
+                            android:id="@+id/tv_loginTab"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5sp"
+                            android:text="@string/Login"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/orange_dark_color"
+                            android:gravity="center_horizontal"></TextView>
+
+
+
+
+                    </LinearLayout>
+
+                    <!--<LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5sp"
+                            android:text="Pincode"></TextView>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="40sp"
+                            android:hint="201301"
+
+                            android:inputType="text"
+                            android:textColor="@color/black_color"></EditText>
+
+                    </LinearLayout>-->
+
+                </LinearLayout>
+
+
+               <!-- <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Enter First Name"></TextView>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/tv_home"
+                                android:layout_width="70dp"
+                                android:layout_height="40sp"
+                                android:text="Home"
+                                android:gravity="center"
+                                android:textColor="@color/green_color"
+                                android:background="@drawable/edt_shape_rectangle">
+
+                            </TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+                            <TextView
+                                android:id="@+id/tv_office"
+                                android:layout_width="70dp"
+                                android:layout_height="40sp"
+                                android:gravity="center"
+                                android:text="Office"
+                                android:textColor="@color/green_color"
+                                android:background="@drawable/edt_shape_rectangle">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/tv_other"
+                                android:layout_width="70dp"
+                                android:layout_height="40sp"
+                                android:background="@drawable/edt_shape_rectangle"
+                                android:gravity="center"
+                                android:text="Other"
+                                android:textColor="@color/green_color">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"></LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>-->
+
+
+                <LinearLayout
+                    android:id="@+id/linear_other"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5sp"
+                        android:text="Nick name this address as"></TextView>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40sp"
+                        android:hint=""
+                        android:inputType="text"
+                        android:textColor="@color/black_color"></EditText>
+
+
+                </LinearLayout>
+
+
+
+               <!-- <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40sp"></LinearLayout>-->
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_add_address"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Register"
+            android:textColor="@color/white_color"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

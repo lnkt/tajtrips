@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.About_us_Fragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="With a mobile travel app guide, travelers receive access to local attractions, insider tips, events, and sights. After visiting a particular place, travelers can share their experiences with other app users by writing reviews and recommendations."/>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="With a mobile travel app guide, travelers receive access to local attractions, insider tips, events, and sights. After visiting a particular place, travelers can share their experiences with other app users by writing reviews and recommendations."/>
+
+
+
+
+
+</LinearLayout>

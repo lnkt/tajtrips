@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+
+         <item
+            android:id="@+id/nav_myProfile"
+            android:icon="@drawable/ic_profile"
+            android:title="My Profile" />
+
+
+       <!-- <item
+            android:id="@+id/nav_abou_us"
+            android:icon="@drawable/ic_about_us"
+            android:title="About Us" />-->
+
+
+
+<!--        <item-->
+<!--            android:id="@+id/nav_current_booking"-->
+<!--            android:icon="@drawable/ic_current_booking"-->
+<!--            android:title="Current Booking" />-->
+
+
+         <item
+            android:id="@+id/nav_myBooking"
+            android:icon="@drawable/ic_profile"
+            android:title="My Booking" />
+
+
+         <item
+            android:id="@+id/nav_rejectedBooking"
+            android:icon="@drawable/ic_profile"
+            android:title="Rejected Booking" />
+
+        <item
+            android:id="@+id/nav_createProfile"
+            android:icon="@drawable/ic_profile"
+            android:title="Create Profile" />
+
+
+        <item
+            android:id="@+id/nav_complete_booking"
+            android:icon="@drawable/ic_complete_booking"
+            android:title="Complete Booking" />
+
+
+
+        <item
+            android:id="@+id/nav_myWallete"
+            android:icon="@drawable/ic_wallet"
+            android:title="Wallet" />
+
+        <item
+            android:id="@+id/nav_myDrivers"
+            android:icon="@drawable/ic_driver"
+            android:title="Add Drivers" />
+        <item
+            android:id="@+id/nav_myCars"
+            android:icon="@drawable/ic_car"
+            android:title="Add Cars" />
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notification"
+            android:title="Notification" />
+
+
+        <item
+            android:id="@+id/nav_information"
+            android:icon="@drawable/ic_information"
+            android:title="Information" />
+
+
+        <item
+            android:id="@+id/nav_penaltyStructure"
+            android:icon="@drawable/ic_fine"
+            android:title="Penalty Structure" />
+
+
+        <item
+            android:id="@+id/nav_Going"
+            android:icon="@drawable/ic_my_route"
+            android:title="Going Home" />
+
+
+        <item
+            android:id="@+id/nav_tutorials"
+            android:icon="@drawable/ic_tutorial_book"
+            android:title="Tutorials" />
+
+
+        <item
+            android:id="@+id/nav_upload_payment_details"
+            android:icon="@drawable/ic_upload_payment_detail"
+            android:title="Upload Payment Details" />
+
+
+        <!--<item
+            android:id="@+id/nav_myVehicle"
+            android:icon="@drawable/ic_vehicle"
+            android:title="My Vehicle" />-->
+
+
+       <!-- <item
+            android:id="@+id/nav_myBids"
+            android:icon="@drawable/ic_my_bids"
+            android:title="My Bids" />-->
+
+       <!-- <item
+            android:id="@+id/nav_accepted_booking"
+            android:icon="@drawable/ic_accept_booking"
+            android:title="Accept Booking" />-->
+
+       <!-- <item
+            android:id="@+id/nav_reject_booking"
+            android:icon="@drawable/ic_accept_booking"
+            android:title="Reject Booking" />-->
+
+
+
+
+
+      <!--  <item
+            android:id="@+id/nav_penalty"
+            android:icon="@drawable/ic_fine"
+            android:title="Penalty" />-->
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_term_condition"
+                android:icon="@drawable/ic_term_condition"
+                android:title="Term and condition" />
+
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:icon="@drawable/ic_privacy_policy"
+                android:title="Privacy Policy" />
+
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+
+
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_contact_us"
+                android:title="Contact Us" />
+
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+            </group>
+
+
+            <!--<item
+               android:id="@+id/nav_notification"
+               android:icon="@drawable/ic_notifications"
+               android:title="Notification" />-->
+
+
+        </menu>
+
+    </item>
+
+
+</menu>

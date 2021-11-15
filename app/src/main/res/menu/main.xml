@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item
+        android:id="@+id/notification"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_notification"/>-->
+<item
+    android:id="@+id/action_viewcart"
+    android:icon="@drawable/ic_cart"
+    android:orderInCategory="200"
+    android:actionLayout="@layout/badge_menu"
+    android:title="@string/action_settings"
+    app:showAsAction="ifRoom" />
+    <!--    <item-->
+    <!--        android:id="@+id/search"-->
+    <!--        android:icon="@drawable/ic_search"-->
+    <!--        android:orderInCategory="100"-->
+    <!--        android:title="@string/action_settings"-->
+    <!--        app:showAsAction="ifRoom" />-->
+    <!--    <item-->
+    <!--        android:id="@+id/notification"-->
+    <!--        android:icon="@drawable/ic_notification"-->
+    <!--        android:orderInCategory="100"-->
+    <!--        android:title="@string/action_settings"-->
+    <!--        app:showAsAction="ifRoom" />-->
+
+
+    </menu>
