@@ -5,12 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activities.AddDriverActivity">
-
-
-
-
-
-
     <LinearLayout
         android:visibility="gone"
         android:layout_width="match_parent"
@@ -80,22 +74,8 @@
                     android:text="Blocked"/>
 
             </RadioGroup>
-
-
         </LinearLayout>
-
-
-
-
-
     </LinearLayout>
-
-
-
-
-
-
-
     <TextView
         android:id="@+id/walleteBalence"
         android:layout_width="match_parent"
@@ -147,15 +127,7 @@
                     android:textColor="@color/black_color"/>
 
             </LinearLayout>
-
-
-
         </LinearLayout>
-
-
-
-
-
     </androidx.core.widget.NestedScrollView>
 
     <LinearLayout

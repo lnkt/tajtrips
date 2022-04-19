@@ -45,7 +45,7 @@
         <item
             android:id="@+id/nav_createProfile"
             android:icon="@drawable/ic_profile"
-            android:title="Create Profile" />
+            android:title="Create Booking" />
 
 
         <item

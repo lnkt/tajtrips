@@ -39,7 +39,7 @@
                     android:layout_height="wrap_content"
                     android:hint=""
                     android:inputType="text"
-                    android:textColor="@color/black_color" />
+                    android:textColor="@color/black_color"/>
             </LinearLayout>
 
 
@@ -80,8 +80,7 @@
                     android:layout_marginTop="5sp"
                     android:text="@string/Ulternate_mobile_Number" />
 
-                <EditText
-                    android:id="@+id/et_alternative_mobile_crete"
+                <EditText android:id="@+id/et_alternative_mobile_crete"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint=""

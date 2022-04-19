@@ -8,6 +8,16 @@ public class DriverCreateRequest {
     private String model_name;
     private String registration_number;
 
+    public String getLicence_no() {
+        return licence_no;
+    }
+
+    public void setLicence_no(String licence_no) {
+        this.licence_no = licence_no;
+    }
+
+    private String licence_no;
+
     public String getDriver_name() {
         return driver_name;
     }

@@ -35,11 +35,11 @@ public class CarListAdapter extends RecyclerView.Adapter<CarListAdapter.CarlistV
 
     @Override
     public void onBindViewHolder(@NonNull CarlistViewHolder holder, int position) {
-        holder.vehicleNameValue.setText(datumList.get(position).getVendor_id());
-        holder.registrationNumberValue.setText(datumList.get(position).getVehicle_reg_no());
+        holder.vehicleNameValue.setText(datumList.get(position).getCar_name());
+        holder.registrationNumberValue.setText(datumList.get(position).getVehicle_number());
         holder.registrationYearValue.setText(datumList.get(position).getRegistration_year());
-        holder.vehicleTypeValue.setText(datumList.get(position).getVehicle_type());
-        holder.fuelTypeValue.setText(datumList.get(position).getFuel_type()==null?"unknown":datumList.get(position).getFuel_type());
+        holder.vehicleTypeValue.setText(datumList.get(position).getCar_type());
+        //holder.fuelTypeValue.setText(datumList.get(position).getFue==null?"unknown":datumList.get(position).getFuel_type());
 
     }
 

@@ -538,7 +538,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
                 if (doubleBackToExitPressedOnce) {
                     doubleBackToExitPressedOnce = false;
-                    Toast.makeText(this, "Please click BACK again to exit.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Please click BACK again to exit.", Toast.LENGTH_SHORT).show ();
                 } else {
                     finish();
                 }

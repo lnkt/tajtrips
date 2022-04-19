@@ -6,7 +6,7 @@
         android:name="android.hardware.camera"
         android:required="true" />
 
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -19,7 +19,9 @@
 
     <application
         android:name=".helper.DriverApplication"
-        android:allowBackup="true"
+
+
+        android:networkSecurityConfig="@xml/security_config"
         android:icon="@drawable/logo512x512"
         android:label="@string/app_name"
         android:largeHeap="true"
@@ -27,7 +29,9 @@
         android:roundIcon="@drawable/logo512x512"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:usesCleartextTraffic="true">
+        >
+        <!--        android:allowBackup="true"-->
+        <!--        android:usesCleartextTraffic="true"-->
         <activity
             android:name=".Activities.CarList"
             android:exported="true" />
@@ -38,6 +42,13 @@
             android:name=".Activities.CarsActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.BothHistoryActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+
+
         <activity
             android:name=".Activities.DriverAccounting"
             android:configChanges="keyboardHidden|screenSize"

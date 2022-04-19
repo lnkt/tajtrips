@@ -59,6 +59,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
+                    android:inputType="number"
+                    android:maxLength="10"
                     android:background="@drawable/bg_edittext"
                     android:hint="Enter Mobile Number" />
 
@@ -80,10 +82,12 @@
                     android:text="Mobile Number 2" />
 
                 <EditText
-                    android:id="@+id/mobileNumber2"
+                    android:id="@+id/mobileNumbertwo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
+                    android:inputType="number"
+                    android:maxLength="10"
                     android:background="@drawable/bg_edittext"
                     android:hint="Enter Mobile Number" />
 
@@ -566,8 +570,7 @@
                     android:layout_height="wrap_content"
                     android:padding="5dp"
                     android:background="@android:drawable/btn_dropdown"
-                    android:spinnerMode="dropdown"
-                    />
+                    android:spinnerMode="dropdown"/>
 
             </LinearLayout>
             <LinearLayout

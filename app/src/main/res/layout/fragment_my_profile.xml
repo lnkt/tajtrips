@@ -13,7 +13,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
             android:orientation="vertical">
 
             <LinearLayout
@@ -33,7 +32,7 @@
                     android:textColor="@color/orange_dark_color"
                     android:textSize="25dp"
                     android:textStyle="bold"
-                    android:visibility="gone"/>
+                    android:visibility="gone" />
 
 
                 <TextView
@@ -47,14 +46,16 @@
                     android:text="Bank Account Details"
                     android:textColor="@color/white_color"
                     android:textSize="17sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:visibility="gone" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:visibility="gone">
 
 
                     <TextView
@@ -77,7 +78,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:visibility="gone">
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -109,7 +111,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:visibility="gone">
 
 
                     <TextView
@@ -135,7 +138,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:visibility="gone">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -158,7 +162,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:visibility="gone">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -176,23 +181,22 @@
                 </LinearLayout>
 
 
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:visibility="gone">
 
                     <Button
-                    android:id="@+id/btn_uploadBankDetail"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/gray_dark"
-                    android:gravity="center"
-                    android:text="Upload Bank Account Detail"
-                    android:textColor="@color/white_color"
-                    android:textSize="15sp" />
+                        android:id="@+id/btn_uploadBankDetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/gray_dark"
+                        android:gravity="center"
+                        android:text="Upload Bank Account Detail"
+                        android:textColor="@color/white_color"
+                        android:textSize="15sp" />
                 </LinearLayout>
 
 
@@ -200,7 +204,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginTop="20dp"
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
 
@@ -212,7 +215,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
                     android:orientation="vertical"
                     android:visibility="gone">
 
@@ -234,15 +236,6 @@
             </LinearLayout>
 
 
-
-
-
-
-
-
-
-
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -260,10 +253,10 @@
                     android:textColor="@color/orange_dark_color"
                     android:textSize="25dp"
                     android:textStyle="bold"
-                    android:visibility="gone"/>
+                    android:visibility="gone" />
 
 
-                <TextView
+                <!--  <TextView
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
                     android:layout_gravity="center"
@@ -374,14 +367,13 @@
                         android:text="Upload Pancard Detail"
                         android:textColor="@color/white_color"
                         android:textSize="15sp" />
-                </LinearLayout>
+                </LinearLayout>-->
 
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginTop="20dp"
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
 
@@ -409,34 +401,17 @@
                         android:inputType="text"
                         android:textColor="@color/black_color" />
                 </LinearLayout>
-
-
             </LinearLayout>
-
-
-
-
-
-
-
-
-
-
-
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="50dp"
                 android:layout_marginBottom="50dp"
                 android:orientation="vertical">
-
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:visibility="gone"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:visibility="gone">
 
                     <ImageView
                         android:layout_width="0dp"
@@ -451,7 +426,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
                     android:layout_gravity="center"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="1dp"
                     android:layout_marginBottom="10dp"
                     android:background="#06C30E"
                     android:gravity="center"
@@ -576,6 +551,7 @@
                         android:maxLength="10"
                         android:textColor="@color/black_color" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -598,6 +574,7 @@
                         android:maxLength="10"
                         android:textColor="@color/black_color" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -620,18 +597,20 @@
                         android:maxLength="10"
                         android:textColor="@color/black_color" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:padding="10dp"
-                    android:weightSum="2"
-                    >
+                    android:weightSum="2">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:orientation="vertical">
+
                         <ImageView
                             android:id="@+id/driverLicenseImage"
                             android:layout_width="150dp"
@@ -640,20 +619,22 @@
                             android:src="@drawable/ic_license_image"
 
                             />
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
                             android:text="Please Upload License"
                             android:textColor="@color/black"
-                            android:gravity="center"
-                            android:textSize="12sp"
-                            />
+                            android:textSize="12sp" />
                     </LinearLayout>
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:orientation="vertical">
+
                         <ImageView
                             android:id="@+id/driverImage"
                             android:layout_width="150dp"
@@ -662,14 +643,14 @@
                             android:src="@drawable/ic_license_image"
 
                             />
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
                             android:text="Please upload your photo"
                             android:textColor="@color/black"
-                            android:gravity="center"
-                            android:textSize="12sp"
-                            />
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -681,31 +662,30 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:orientation="vertical">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="State"
-                        />
+                        android:text="State" />
+
                     <Spinner
                         android:id="@+id/addressState"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@android:drawable/btn_dropdown"
-                        android:spinnerMode="dropdown"
-                        />
+                        android:spinnerMode="dropdown" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="City"
-                        />
+                        android:text="City" />
 
                     <Spinner
                         android:id="@+id/addresscity"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@android:drawable/btn_dropdown"
-                        android:spinnerMode="dropdown"
-                        />
+                        android:spinnerMode="dropdown" />
 
                 </LinearLayout>
 
@@ -740,6 +720,122 @@
                 </LinearLayout>
 
             </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#06C30E"
+                android:gravity="center"
+                android:text="PAN Card Details"
+                android:textColor="@color/white_color"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:text="@string/NAME" />
+
+                <EditText
+                    android:id="@+id/et_name_pancard"
+                    android:layout_width="match_parent"
+                    android:layout_height="40sp"
+                    android:hint="As On PAN Card"
+                    android:inputType="text"
+                    android:textColor="@color/black_color" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5sp"
+                        android:text="PAN Number" />
+
+                    <EditText
+                        android:id="@+id/et_pan_number_pan"
+                        android:layout_width="match_parent"
+                        android:layout_height="40sp"
+                        android:hint="Enter Pan No"
+                        android:inputType="text"
+                        android:textColor="@color/black_color" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:text="Date of Birth (Enter Date with -)" />
+
+                <EditText
+                    android:id="@+id/et_date_of_birth_pan"
+                    android:layout_width="match_parent"
+                    android:layout_height="40sp"
+                    android:hint="YYYY/MM/DD"
+                    android:textColor="@color/black_color" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="@dimen/dimen_10dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_uploadPANDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray_dark"
+                    android:gravity="center"
+                    android:text="Upload Pancard Detail"
+                    android:textColor="@color/white_color"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_10dp"/>
 
         </LinearLayout>
 

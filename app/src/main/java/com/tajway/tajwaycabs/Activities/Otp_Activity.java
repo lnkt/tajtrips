@@ -28,7 +28,6 @@ public class Otp_Activity extends AppCompatActivity {
     Button tv_done_otp;
     PinEntryEditText pinEntry;
     String mobile,firebase_token;
-
     SessonManager sessonManager;
 
     @Override
@@ -46,10 +45,6 @@ public class Otp_Activity extends AppCompatActivity {
 
         pinEntry=findViewById(R.id.peet_otp);
         tv_done_otp = findViewById(R.id.tv_done_otp);
-
-
-
-
         tv_done_otp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -62,8 +57,6 @@ public class Otp_Activity extends AppCompatActivity {
                     intent.setFlags(intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(intent);
                 }*/
-
-
                 if (setOTP()) {
                     OTPAPI();
                 }

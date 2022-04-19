@@ -46,6 +46,7 @@ public class Drivers_Activity extends AppCompatActivity {
     DriverAdapter driverAdapter;
     ArrayList<DriverDataResponse> arListDriver;
     SessonManager sessonManager;
+    String token;
 
   /*  @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -60,7 +61,7 @@ public class Drivers_Activity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     sessonManager = new SessonManager(Drivers_Activity.this);
-        Log.d("sessonManager", String.valueOf(sessonManager));
+        Log.d("sessonManager", String.valueOf(sessonManager.getToken()));
 
         tv_addDerivers = findViewById(R.id.tv_addDerivers);
         RVDriver = findViewById(R.id.rv_driver);
@@ -102,7 +103,7 @@ public class Drivers_Activity extends AppCompatActivity {
     private void getDriverList() {
         final ProgressDialog dialog = ProgressDialog.show(Drivers_Activity.this, null, getString(R.string.loading));
         String TAG ="driver details";
-        Call<DriverList> call = Apiclient.getMyService().driverList();
+        Call<DriverList> call = Apiclient.getMyService().driverList("Bearer "+sessonManager.getToken());
         call.enqueue(new Callback<DriverList>() {
             @Override
             public void onResponse(Call<DriverList> call, Response<DriverList> response) {
@@ -115,6 +116,7 @@ public class Drivers_Activity extends AppCompatActivity {
                     RVDriver.setAdapter(driverAdapter);
                     dialog.dismiss();
                 }
+                dialog.dismiss();
             }
 
             @Override

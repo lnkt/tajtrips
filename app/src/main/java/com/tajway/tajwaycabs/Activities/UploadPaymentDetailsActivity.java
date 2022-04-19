@@ -170,6 +170,11 @@ public class UploadPaymentDetailsActivity extends AppCompatActivity {
         partMap.put("transaction_date", ApiFactory.getRequestBodyFromString(edtDate.getText().toString()));
 
 
+        Log.d("partMap", "postDriverData: "+partMap.get("transaction_id"));
+        Log.d("partMap", "postDriverData: "+partMap.get("amount"));
+        Log.d("partMap", "postDriverData: "+partMap.get("transaction_date"));
+
+
         MultipartBody.Part[] imageArray1 = new MultipartBody.Part[imagePathList.size()];
 
         for (int i = 0; i < imageArray1.length; i++) {

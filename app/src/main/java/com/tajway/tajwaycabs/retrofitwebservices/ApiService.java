@@ -30,6 +30,9 @@ import com.tajway.tajwaycabs.retrofitModel.InfoStatusModel;
 import com.tajway.tajwaycabs.retrofitModel.MyBookingModel;
 import com.google.gson.JsonObject;
 import com.tajway.tajwaycabs.retrofitModel.NotificationModel;
+import com.tajway.tajwaycabs.retrofitModel.WalletBalanceModel;
+import com.tajway.tajwaycabs.retrofitModel.WalletHistoryModel;
+import com.tajway.tajwaycabs.retrofitModel.WalletRechargeModel;
 
 import java.util.Map;
 
@@ -101,9 +104,6 @@ public interface ApiService {
     @GET("notifications")
     Call<NotificationModel> getNotification(@Header("Authorization") String token);
 
-    @NonNull
-    @POST("driver-create")
-    Call<DriverCreateJsonResponse> apiDriverCreate(@Header("Authorization") String token, @Body DriverCreateRequest accept);
 
     @NonNull
     @GET("mybooking-trip")
@@ -118,7 +118,7 @@ public interface ApiService {
     Call<MyBookingModel> apiCompleteBookingList(@Header("Authorization") String token, @Query("type") String type);
 
     @FormUrlEncoded
-    @POST("http://jhojhu.com/api/gallery_list")
+    @POST("http://avaskm.jhojhu.com/api/gallery_list")
     Call<InfoStatusModel> apiInfoList(@Header("Authorization") String token, @Field("type") String type);
 
     @NonNull
@@ -144,7 +144,7 @@ public interface ApiService {
 
 
     @FormUrlEncoded
-    @POST("http://jhojhu.com/api/driveraccount_save")
+    @POST("http://avaskm.jhojhu.com/api/driveraccount_save")
     Call<InfoStatusModel> apiDriverAccounting(@Field("booking_id") String booking_id, @Field("driver_id") String driver_id, @Field("Destination") String Destination,
                                               @Field("amount") String amount, @Field("txn_type") String txn_type, @Field("txn_date") String txn_date, @Field("remarks") String remarks,
                                               @Field("user_id") String user_id, @Field("Source") String Source);
@@ -159,20 +159,38 @@ public interface ApiService {
 
 
     @FormUrlEncoded
-    @POST("http://jhojhu.com/Api/booking_id")
+    @POST("http://avaskm.jhojhu.com/Api/booking_id")
     Call<InfoStatusModel> completedBookingId(@Field("mobile") String mobile);
 
     @FormUrlEncoded
-    @POST("http://jhojhu.com/Api/driverAccountingAll")
+    @POST("http://avaskm.jhojhu.com/Api/driverAccountingAll")
     Call<InfoStatusModel> accountingViewAll(@Field("user_id") String user_id);
 
     @GET("car-lists")
-    Call<CarLists> carList();
+    Call<CarLists> carLists(@Header("Authorization") String token);
 
     @GET("list-driver")
-    Call<DriverList> driverList();
+    Call<DriverList> driverList(@Header("Authorization") String token);
 
     @Multipart
     @POST("car-store")
-    Call<CarStore> addCar(@PartMap() Map<String, RequestBody> partMap,@Part MultipartBody.Part fileRc,@Part MultipartBody.Part fileInsurance,@Part MultipartBody.Part filePermit);
+    Call<CarStore> addCar(@Header("Authorization") String token,@PartMap() Map<String, RequestBody> partMap,@Part MultipartBody.Part[] images);
+
+    //
+    @Multipart
+    @POST("driver-create")
+    Call<DriverCreateJsonResponse> apiDriverCreate(@Header("Authorization") String token, @PartMap() Map<String, RequestBody> partMap,@Part MultipartBody.Part[] images);
+    @GET("wallet-history")
+    Call<WalletHistoryModel> getWalletHistory(@Header("Authorization") String token);
+
+    @GET("wallet-balance")
+    Call<WalletBalanceModel> getWalletBalance(@Header("Authorization") String token);
+
+    @POST("recharge")
+    Call<WalletRechargeModel> postamount(@Header("Authorization") String token, @Body WalletRechargeModel sendAmmt);
+
+//    @POST("trip-store")
+//    Call<>
+
+
 }
